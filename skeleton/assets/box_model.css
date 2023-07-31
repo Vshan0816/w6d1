@@ -5,13 +5,16 @@ body {
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
   width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
+  /* width: 700px; */
   font-size: 38px;
 }
 
 h2 {
+  /* width: 180px; */
   font-size: 32px;
 }
 
@@ -35,11 +38,22 @@ header > img {
   width: 100px;
 }
 
+aside {
+  width: 180px;
+  display: inline-block;
+}
+
+section {
+  width: 700px;
+}
 /* Selects all elements with the class attribute "ingredients-list" */
 .ingredients-list {
-
   /* The list style property is shorthand for multiple list-style properties*/
   list-style: square inside;
+}
+
+.ingredients-list li {
+  margin: 15px 0px;
 }
 
 ol {
